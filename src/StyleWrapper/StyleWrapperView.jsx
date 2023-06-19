@@ -25,7 +25,7 @@ const getSide = (side, v) =>
 const getSides = (v) => {
   return `${getSide('top', v)} ${getSide('right', v)} ${getSide(
     'bottom',
-    v,
+    v
   )} ${getSide('left', v)}`;
 };
 
@@ -71,7 +71,7 @@ export function getInlineStyles(data, props = {}) {
       : {}),
     ...(data.shadowDepth && {
       boxShadow: `0px 0px ${data.shadowDepth}px rgba(${h2rgb(
-        data.shadowColor,
+        data.shadowColor
       )} ${(data.shadowDepth * 100) / 0.24})`,
     }),
     ...(data.margin && { margin: getSides(data.margin) }),
@@ -145,7 +145,7 @@ const StyleWrapperView = (props) => {
         medium: size === 'm',
         small: size === 's',
         'drop-cap': isDropCap,
-      },
+      }
     ),
     id: customId,
     ...(props.role ? { role: props.role } : {}),
@@ -201,5 +201,5 @@ export default connect((state, props) => ({
 }))(
   withCachedImages(StyleWrapperView, {
     getImage: (props) => props.styleData.backgroundImage || null,
-  }),
+  })
 );

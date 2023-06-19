@@ -17,7 +17,7 @@ const BlockStyleWrapperEdit = (props) => {
   const tabsNode =
     __CLIENT__ &&
     document.querySelector(
-      '#sidebar > .sidebar-container > .tabs-wrapper > .formtabs',
+      '#sidebar > .sidebar-container > .tabs-wrapper > .formtabs'
     );
 
   const triggerButton = (

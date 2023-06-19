@@ -34,7 +34,7 @@ const StyleWrapperEdit = (props) => {
         setIsVisible(false);
       }
     },
-    [isVisible, setIsVisible],
+    [isVisible, setIsVisible]
   );
 
   const deleteAllStyle = React.useCallback(() => {

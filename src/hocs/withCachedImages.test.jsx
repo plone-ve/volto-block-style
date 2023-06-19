@@ -33,7 +33,7 @@ describe('withCachedImages', () => {
     // so we override the behaviour
     window.Image = jest.fn(() => mockImage);
     const { getByTestId, rerender } = render(
-      <WrappedComponent image={'mock-image'} />,
+      <WrappedComponent image={'mock-image'} />
     );
     const testComponentNode = getByTestId('test-component');
     expect(testComponentNode).toHaveTextContent('1');

@@ -58,7 +58,7 @@ const applyConfig = (config) => {
   const okBlocks = Object.keys(blocksConfig).filter(
     (name) =>
       (blacklist ? !blacklist.includes(name) : true) &&
-      (whitelist ? whitelist.includes(name) : true),
+      (whitelist ? whitelist.includes(name) : true)
   );
   okBlocks.forEach((name) => {
     blocksConfig[name] = applyStyleWrapperToBlock(blocksConfig[name]);

@@ -58,7 +58,7 @@ export class Slider extends Component {
       if (this.props.multiple) {
         const different = this.isDifferentArrays(
           nextProps.value,
-          this.state.value,
+          this.state.value
         );
         if (different) {
           this.setValuesAndPositions(nextProps.value, true);
@@ -167,7 +167,7 @@ export class Slider extends Component {
         position < this.state.position[i + 1]
       ) {
         const distanceToSecond = Math.abs(
-          position - this.state.position[i + 1],
+          position - this.state.position[i + 1]
         );
         const distanceToFirst = Math.abs(position - this.state.position[i]);
         if (distanceToSecond <= distanceToFirst) {
@@ -250,7 +250,7 @@ export class Slider extends Component {
         mouseDown: true,
       });
       let innerBoundingClientRect = ReactDOM.findDOMNode(
-        this.inner,
+        this.inner
       ).getBoundingClientRect();
       this.innerLeft = innerBoundingClientRect.left;
       this.innerRight = this.innerLeft + this.inner.offsetWidth;
