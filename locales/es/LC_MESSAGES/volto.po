@@ -1,0 +1,79 @@
+# Translation of volto.pot to Spanish
+# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: Plone\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-19T22:04:14.118Z\n"
+"PO-Revision-Date: 2023-06-19 06:34-0400\n"
+"Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
+"Language-Team: ES <LL@li.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Language-Code: es\n"
+"Language-Name: Español\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Preferred-Encodings: utf-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Domain: volto\n"
+"X-Is-Fallback-For: es-ar es-bo es-cl es-co es-cr es-do es-ec es-es es-sv es-gt es-hn es-mx es-ni es-pa es-py es-pe es-pr es-us es-uy es-ve\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#: Widgets/Align
+#: Widgets/TextAlign
+# defaultMessage: Center
+msgid "Center"
+msgstr "Centro"
+
+#: Widgets/TextAlign
+# defaultMessage: Clear selection
+msgid "Clear selection"
+msgstr "Limpiar selección"
+
+#: Blocks/StretchBlock
+# defaultMessage: Fit
+msgid "Fit"
+msgstr "Adaptar"
+
+#: Widgets/Align
+# defaultMessage: Full
+msgid "Full"
+msgstr "Completo"
+
+#: Widgets/TextAlign
+# defaultMessage: Justify
+msgid "Justify"
+msgstr "Justificar"
+
+#: Widgets/Align
+#: Widgets/TextAlign
+# defaultMessage: Left
+msgid "Left"
+msgstr "Izquierda"
+
+#: Widgets/Align
+# defaultMessage: Narrow
+msgid "Narrow"
+msgstr "Reducir"
+
+#: Widgets/Align
+# defaultMessage: None
+msgid "None"
+msgstr "Ninguno"
+
+#: Widgets/Align
+#: Widgets/TextAlign
+# defaultMessage: Right
+msgid "Right"
+msgstr "Derecha"
+
+#: Blocks/StretchBlock
+# defaultMessage: Stretch
+msgid "Stretch"
+msgstr "Estirar"
+
+#: Widgets/Align
+# defaultMessage: Wide
+msgid "Wide"
+msgstr "Ancho"
