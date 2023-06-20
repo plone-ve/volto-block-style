@@ -5,20 +5,80 @@ msgstr ""
 "Project-Id-Version: Plone\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-19T22:04:14.118Z\n"
-"PO-Revision-Date: 2023-06-19 06:34-0400\n"
+"PO-Revision-Date: 2023-06-20 16:00-0400\n"
 "Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
-"Language-Team: ES <LL@li.org>\n"
 "Language: es\n"
+"Language-Team: ES <LL@li.org>\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Language-Code: es\n"
 "Language-Name: Español\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Preferred-Encodings: utf-8\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Domain: volto\n"
 "X-Is-Fallback-For: es-ar es-bo es-cl es-co es-cr es-do es-ec es-es es-sv es-gt es-hn es-mx es-ni es-pa es-py es-pe es-pr es-us es-uy es-ve\n"
 "X-Generator: Poedit 3.3.1\n"
+
+#: StyleWrapper/schema
+# defaultMessage: A custom CSS class, applicable just to this block
+msgid "A custom CSS class, applicable just to this block"
+msgstr "Una clase CSS personalizada, aplicable solo a este bloque"
+
+#: StyleWrapper/schema
+# defaultMessage: A custom id, applicable just to this block
+msgid "A custom id, applicable just to this block"
+msgstr "Una id personalizada, aplicable solo a este bloque"
+
+#: StyleWrapper/schema
+# defaultMessage: A predefined theme, applicable just to this block
+msgid "A predefined theme, applicable just to this block"
+msgstr "Un tema predefinido, aplicable solo a este bloque."
+
+#: StyleWrapper/schema
+# defaultMessage: Advanced
+msgid "Advanced"
+msgstr "Avanzado"
+
+#: StyleWrapper/schema
+# defaultMessage: Align
+msgid "Align"
+msgstr "Alinear"
+
+#: StyleWrapper/schema
+# defaultMessage: Background color
+msgid "Background color"
+msgstr "Color de fondo"
+
+#: StyleWrapper/schema
+# defaultMessage: Background image
+msgid "Background image"
+msgstr "Imagen de fondo"
+
+#: Widgets/StyleSelect
+# defaultMessage: Block content
+msgid "Block content"
+msgstr "Bloquear contenido"
+
+#: index
+# defaultMessage: Blue Shade
+msgid "Blue Shade"
+msgstr "Sombra azul"
+
+#: StyleWrapper/schema
+# defaultMessage: Bold
+msgid "Bold"
+msgstr "Negrita"
+
+#: StyleWrapper/schema
+# defaultMessage: Both
+msgid "Both"
+msgstr "Ambos"
+
+#: StyleWrapper/schema
+# defaultMessage: Box size
+msgid "Box size"
+msgstr "Tamaño de la caja"
 
 #: Widgets/Align
 #: Widgets/TextAlign
@@ -26,52 +86,287 @@ msgstr ""
 msgid "Center"
 msgstr "Centro"
 
+#: StyleWrapper/StyleWrapperEdit
+# defaultMessage: Clear block style
+msgid "Clear block style"
+msgstr "Borrar estilo de bloque"
+
+#: StyleWrapper/schema
+# defaultMessage: Clear floats
+msgid "Clear floats"
+msgstr "Limpiar flotadores"
+
 #: Widgets/TextAlign
 # defaultMessage: Clear selection
 msgid "Clear selection"
 msgstr "Limpiar selección"
+
+#: StyleWrapper/StyleWrapperEdit
+# defaultMessage: Close
+msgid "Close"
+msgstr "Cerrar"
+
+#: StyleWrapper/schema
+# defaultMessage: Custom CSS Class
+msgid "Custom CSS Class"
+msgstr "Clase CSS personalizada"
+
+#: StyleWrapper/schema
+# defaultMessage: Custom Id
+msgid "Custom Id"
+msgstr "Id personalizada"
+
+#: Widgets/QuadSize
+# defaultMessage: Customize
+msgid "Customize"
+msgstr "Personalizar"
+
+#: StyleWrapper/schema
+# defaultMessage: Decorations
+msgid "Decorations"
+msgstr "Decoraciones"
+
+#: Blocks/StretchBlock
+#: StyleWrapper/schema
+# defaultMessage: Default
+msgid "Default"
+msgstr "Por defecto"
+
+#: StyleWrapper/schema
+# defaultMessage: Drop cap
+msgid "Drop cap"
+msgstr "Letra capital"
+
+#: StyleWrapper/schema
+# defaultMessage: Element height
+msgid "Element height"
+msgstr "Altura del elemento"
+
+#: StyleWrapper/schema
+# defaultMessage: Element height, expressed as CSS dimension
+msgid "Element height, expressed as CSS dimension"
+msgstr "Altura del elemento, expresada como dimensión CSS"
+
+#: ErrorBoundary
+# defaultMessage: Error in component
+msgid "Error in component"
+msgstr "Error en componente"
+
+#: StyleWrapper/schema
+# defaultMessage: First letter is styled as a drop cap
+msgid "First letter is styled as a drop cap"
+msgstr "La primera letra tiene el estilo de una letra capitular"
 
 #: Blocks/StretchBlock
 # defaultMessage: Fit
 msgid "Fit"
 msgstr "Adaptar"
 
+#: StyleWrapper/schema
+# defaultMessage: Font size
+msgid "Font size"
+msgstr "Tamaño de fuente"
+
+#: StyleWrapper/schema
+# defaultMessage: Font weight
+msgid "Font weight"
+msgstr "Peso de la fuente"
+
 #: Widgets/Align
 # defaultMessage: Full
 msgid "Full"
 msgstr "Completo"
+
+#: index
+# defaultMessage: Green box
+msgid "Green box"
+msgstr "Caja verde"
+
+#: StyleWrapper/schema
+# defaultMessage: Hidden
+msgid "Hidden"
+msgstr "Hidden"
+
+#: StyleWrapper/schema
+# defaultMessage: Hide this block
+msgid "Hide this block"
+msgstr "Ocultar este bloque"
 
 #: Widgets/TextAlign
 # defaultMessage: Justify
 msgid "Justify"
 msgstr "Justificar"
 
+#: StyleWrapper/schema
+# defaultMessage: Layout
+msgid "Layout"
+msgstr "Disposición"
+
+#: StyleWrapper/schema
 #: Widgets/Align
 #: Widgets/TextAlign
 # defaultMessage: Left
 msgid "Left"
 msgstr "Izquierda"
 
+#: StyleWrapper/schema
+# defaultMessage: Light
+msgid "Light"
+msgstr "Ligero"
+
+#: StyleWrapper/schema
+# defaultMessage: Margin
+msgid "Margin"
+msgstr "Margen"
+
+#: StyleWrapper/schema
+# defaultMessage: Maximize block to viewport height
+msgid "Maximize block to viewport height"
+msgstr "Maximizar la altura del bloque a la ventana gráfica"
+
+#: StyleWrapper/schema
+# defaultMessage: Medium
+msgid "Medium"
+msgstr "Medio"
+
 #: Widgets/Align
 # defaultMessage: Narrow
 msgid "Narrow"
 msgstr "Reducir"
 
+#: StyleWrapper/schema
 #: Widgets/Align
 # defaultMessage: None
 msgid "None"
 msgstr "Ninguno"
 
+#: StyleWrapper/schema
+# defaultMessage: Padding
+msgid "Padding"
+msgstr "Relleno"
+
+#: Widgets/SimpleColorPicker
+# defaultMessage: Pick color
+msgid "Pick color"
+msgstr "Elegir color"
+
+#: StyleWrapper/schema
+# defaultMessage: Preset styles
+msgid "Preset styles"
+msgstr "Estilos preestablecidos"
+
+#: StyleWrapper/schema
+# defaultMessage: Pushes selected block under floated content
+msgid "Pushes selected block under floated content"
+msgstr "Empuja el bloque seleccionado debajo del contenido flotante"
+
+#: StyleWrapper/schema
+# defaultMessage: Regular
+msgid "Regular"
+msgstr "Regular"
+
+#: StyleWrapper/schema
+# defaultMessage: Relative to normal size of text in the block
+msgid "Relative to normal size of text in the block"
+msgstr "Relativo al tamaño normal del texto en el bloque"
+
+#: StyleWrapper/schema
 #: Widgets/Align
 #: Widgets/TextAlign
 # defaultMessage: Right
 msgid "Right"
 msgstr "Derecha"
 
+#: StyleWrapper/schema
+# defaultMessage: Rounded Corner
+msgid "Rounded Corner"
+msgstr "Esquina redondeada"
+
+#: StyleWrapper/schema
+# defaultMessage: Screen height
+msgid "Screen height"
+msgstr "Altura de la pantalla"
+
+#: StyleWrapper/schema
+# defaultMessage: SemiBold
+msgid "SemiBold"
+msgstr "Seminegrita"
+
+#: StyleWrapper/schema
+# defaultMessage: Shadow color
+msgid "Shadow color"
+msgstr "Color de sombra"
+
+#: StyleWrapper/schema
+# defaultMessage: Shadow depth
+msgid "Shadow depth"
+msgstr "Profundidad de la sombra"
+
+#: Widgets/QuadSize
+# defaultMessage: Size
+msgid "Size"
+msgstr "Tamaño"
+
+#: StyleWrapper/schema
+# defaultMessage: Standard
+msgid "Standard"
+msgstr "Estándar"
+
 #: Blocks/StretchBlock
+#: StyleWrapper/schema
 # defaultMessage: Stretch
 msgid "Stretch"
 msgstr "Estirar"
+
+#: Blocks/StretchBlock
+# defaultMessage: Stretch block to the edges
+msgid "Stretch block to the edges"
+msgstr "Estirar el bloque hasta los bordes"
+
+#: StyleWrapper/schema
+# defaultMessage: Style
+msgid "Style"
+msgstr "Estilo"
+
+#: BlockStyleWrapper/BlockStyleWrapperEdit
+# defaultMessage: Style palette for
+msgid "Style palette for "
+msgstr "Paleta de estilos para "
+
+#: BlockStyleWrapper/BlockStyleWrapperEdit
+# defaultMessage: Style pallete
+msgid "Style pallete"
+msgstr "Paleta de estilo"
+
+#: StyleWrapper/schema
+# defaultMessage: Styles
+msgid "Styles"
+msgstr "Estilos"
+
+#: StyleWrapper/schema
+# defaultMessage: Text align
+msgid "Text align"
+msgstr "Texto alineado"
+
+#: StyleWrapper/schema
+# defaultMessage: Text color
+msgid "Text color"
+msgstr "Color de texto"
+
+#: StyleWrapper/schema
+# defaultMessage: The weight (or boldness) of the font
+msgid "The weight (or boldness) of the font"
+msgstr "El peso (o negrita) de la fuente"
+
+#: StyleWrapper/schema
+# defaultMessage: Theme
+msgid "Theme"
+msgstr "Tema"
+
+#: Widgets/QuadSize
+# defaultMessage: Unit
+msgid "Unit"
+msgstr "Unidad"
 
 #: Widgets/Align
 # defaultMessage: Wide
