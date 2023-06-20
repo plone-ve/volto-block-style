@@ -1,14 +1,30 @@
 import React from 'react';
+import { defineMessages } from 'react-intl';
 import { Field, FormFieldWrapper } from '@plone/volto/components';
 import ErrorBoundary from '../ErrorBoundary';
 import { Grid } from 'semantic-ui-react';
 import { Slider } from './Slider';
 
+const messages = defineMessages({
+  unit: {
+    id: 'Unit',
+    defaultMessage: 'Unit',
+  },
+  size: {
+    id: 'Size',
+    defaultMessage: 'Size',
+  },
+  customize: {
+    id: 'Customize',
+    defaultMessage: 'Customize',
+  },
+});
+
 const fields = {
   unitField: {
-    title: 'Unit',
+    title: `${intl.formatMessage(messages.unit)}`,
     columns: 2,
-    placeholder: 'Unit',
+    placeholder: `${intl.formatMessage(messages.unit)}`,
     defaultValue: 'px',
     choices: [
       ['px', 'px'],
@@ -132,7 +148,7 @@ const QuadSizeWidget = (props) => {
               });
             }}
             value={top}
-            title="Size"
+            title={intl.formatMessage(messages.size)}
             widget="slider"
             columns={2}
           />
@@ -142,7 +158,7 @@ const QuadSizeWidget = (props) => {
           id={`${id}-lockSize`}
           onChange={(fid, val) => onChange(id, { ...value, unlock: val })}
           value={unlock}
-          title="Customize"
+          title={intl.formatMessage(messages.customize)}
           type="boolean"
           columns={1}
         />

@@ -1,10 +1,22 @@
 import React from 'react';
+import { defineMessages, injectIntl } from 'react-intl';
 import { doesNodeContainClick } from 'semantic-ui-react/dist/commonjs/lib';
 import { Icon, SidebarPopup } from '@plone/volto/components';
 import InlineForm from '@plone/volto/components/manage/Form/InlineForm';
 import { StyleSchema } from './schema';
 import clearSVG from '@plone/volto/icons/clear.svg';
 import eraserSVG from '@eeacms/volto-block-style/icons/eraser.svg';
+
+const messages = defineMessages({
+  close: {
+    id: 'Close',
+    defaultMessage: 'Close',
+  },
+  clearBlockStyle: {
+    id: 'Clear block style',
+    defaultMessage: 'Clear block style',
+  },
+});
 
 const StyleWrapperEdit = (props) => {
   const {
@@ -65,10 +77,18 @@ const StyleWrapperEdit = (props) => {
               }}
               style={{ float: 'right' }}
             >
-              <Icon name={clearSVG} size="24px" title="Close" />
+              <Icon
+                name={clearSVG}
+                size="24px"
+                title={intl.formatMessage(messages.close)}
+              />
             </button>
             <button onClick={deleteAllStyle} style={{ float: 'right' }}>
-              <Icon name={eraserSVG} size="24px" title="Clear block style" />
+              <Icon
+                name={eraserSVG}
+                size="24px"
+                title={intl.formatMessage(messages.cclearBlockStylelose)}
+              />
             </button>
           </>
         }
@@ -83,4 +103,4 @@ const StyleWrapperEdit = (props) => {
   );
 };
 
-export default StyleWrapperEdit;
+export default injectIntl(StyleWrapperEdit);

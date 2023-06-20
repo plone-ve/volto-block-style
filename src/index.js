@@ -1,4 +1,5 @@
 import React from 'react';
+import { defineMessages } from 'react-intl';
 import {
   BlockStyleWrapperEdit,
   BlockStyleWrapperView,
@@ -14,6 +15,17 @@ import SimpleColorPicker from './Widgets/SimpleColorPicker';
 import QuadSizeWidget from './Widgets/QuadSize';
 
 import './styles.less';
+
+const messages = defineMessages({
+  greenBox: {
+    id: 'Green box',
+    defaultMessage: 'Green box',
+  },
+  blueShade: {
+    id: 'Blue Shade',
+    defaultMessage: 'Blue Shade',
+  },
+});
 
 /**
  * Given a block's config object, it wrapps the view and edit in style wrappers
@@ -129,12 +141,12 @@ export const installDemoStyles = (config) => {
     ...(config.settings.pluggableStyles || []),
     {
       id: 'greenBox',
-      title: 'Green box',
+      title: intl.formatMessage(messages.greenBox),
       cssClass: 'green-demo-box',
     },
     {
       id: 'blueShade',
-      title: 'Blue Shade',
+      title: intl.formatMessage(messages.blueShade),
       cssClass: 'blue-demo-box',
       previewComponent: (props) => (
         <div className={`${props.className} preview-blue-demo-box`}>

@@ -1,13 +1,23 @@
 import React from 'react';
+import { defineMessages } from 'react-intl';
 import { Card, Item } from 'semantic-ui-react';
 import { FormFieldWrapper } from '@plone/volto/components';
 import config from '@plone/volto/registry';
 import cx from 'classnames';
 
+const messages = defineMessages({
+  previewText: {
+    id: 'Block content',
+    defaultMessage: 'Block content',
+  },
+});
+
 const StyleSelectWidget = (props) => {
   const { id, value, onChange } = props;
-  const { pluggableStyles = [], previewText = 'Block content' } =
-    config.settings;
+  const {
+    pluggableStyles = [],
+    previewText = `${props.intl.formatMessage(messages.pickColor)}`,
+  } = config.settings;
 
   const renderPreview = React.useCallback(
     (style) => {

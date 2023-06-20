@@ -10,9 +10,17 @@ const messages = defineMessages({
     id: 'Fit',
     defaultMessage: 'Fit',
   },
+  default: {
+    id: 'Default',
+    defaultMessage: 'Default',
+  },
   stretch: {
     id: 'Stretch',
     defaultMessage: 'Stretch',
+  },
+  stretchBlockToTheEdges: {
+    id: 'Stretch block to the edges',
+    defaultMessage: 'Stretch block to the edges',
   },
 });
 
@@ -36,7 +44,7 @@ const StretchBlock = ({ stretch, onChangeBlock, data, intl, block }) => {
         <Button
           icon
           basic
-          title={'Default'}
+          title={intl.formatMessage(messages.default)}
           aria-label={intl.formatMessage(messages.fit)}
           onClick={() => onStretchBlock('fit')}
           active={data.stretch === 'fit' || !data.stretch}
@@ -48,7 +56,7 @@ const StretchBlock = ({ stretch, onChangeBlock, data, intl, block }) => {
         <Button
           icon
           basic
-          title={'Stretch block to the edges'}
+          title={intl.formatMessage(messages.stretchBlockToTheEdges)}
           aria-label={intl.formatMessage(messages.stretch)}
           onClick={() => onStretchBlock('stretch')}
           active={data.stretch === 'stretch'}

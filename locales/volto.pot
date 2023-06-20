@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Plone\n"
-"POT-Creation-Date: 2023-06-19T22:04:14.118Z\n"
+"POT-Creation-Date: 2023-06-20T19:42:08.579Z\n"
 "Last-Translator: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
 "Language-Team: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -13,10 +13,80 @@ msgstr ""
 "Preferred-Encodings: utf-8\n"
 "Domain: volto\n"
 
+#: StyleWrapper/schema
+# defaultMessage: A custom CSS class, applicable just to this block
+msgid "A custom CSS class, applicable just to this block"
+msgstr ""
+
+#: StyleWrapper/schema
+# defaultMessage: A custom id, applicable just to this block
+msgid "A custom id, applicable just to this block"
+msgstr ""
+
+#: StyleWrapper/schema
+# defaultMessage: A predefined theme, applicable just to this block
+msgid "A predefined theme, applicable just to this block"
+msgstr ""
+
+#: StyleWrapper/schema
+# defaultMessage: Advanced
+msgid "Advanced"
+msgstr ""
+
+#: StyleWrapper/schema
+# defaultMessage: Align
+msgid "Align"
+msgstr ""
+
+#: StyleWrapper/schema
+# defaultMessage: Background color
+msgid "Background color"
+msgstr ""
+
+#: StyleWrapper/schema
+# defaultMessage: Background image
+msgid "Background image"
+msgstr ""
+
+#: Widgets/StyleSelect
+# defaultMessage: Block content
+msgid "Block content"
+msgstr ""
+
+#: index
+# defaultMessage: Blue Shade
+msgid "Blue Shade"
+msgstr ""
+
+#: StyleWrapper/schema
+# defaultMessage: Bold
+msgid "Bold"
+msgstr ""
+
+#: StyleWrapper/schema
+# defaultMessage: Both
+msgid "Both"
+msgstr ""
+
+#: StyleWrapper/schema
+# defaultMessage: Box size
+msgid "Box size"
+msgstr ""
+
 #: Widgets/Align
 #: Widgets/TextAlign
 # defaultMessage: Center
 msgid "Center"
+msgstr ""
+
+#: StyleWrapper/StyleWrapperEdit
+# defaultMessage: Clear block style
+msgid "Clear block style"
+msgstr ""
+
+#: StyleWrapper/schema
+# defaultMessage: Clear floats
+msgid "Clear floats"
 msgstr ""
 
 #: Widgets/TextAlign
@@ -24,9 +94,75 @@ msgstr ""
 msgid "Clear selection"
 msgstr ""
 
+#: StyleWrapper/StyleWrapperEdit
+# defaultMessage: Close
+msgid "Close"
+msgstr ""
+
+#: StyleWrapper/schema
+# defaultMessage: Custom CSS Class
+msgid "Custom CSS Class"
+msgstr ""
+
+#: StyleWrapper/schema
+# defaultMessage: Custom Id
+msgid "Custom Id"
+msgstr ""
+
+#: Widgets/QuadSize
+# defaultMessage: Customize
+msgid "Customize"
+msgstr ""
+
+#: StyleWrapper/schema
+# defaultMessage: Decorations
+msgid "Decorations"
+msgstr ""
+
+#: Blocks/StretchBlock
+#: StyleWrapper/schema
+# defaultMessage: Default
+msgid "Default"
+msgstr ""
+
+#: StyleWrapper/schema
+# defaultMessage: Drop cap
+msgid "Drop cap"
+msgstr ""
+
+#: StyleWrapper/schema
+# defaultMessage: Element height
+msgid "Element height"
+msgstr ""
+
+#: StyleWrapper/schema
+# defaultMessage: Element height, expressed as CSS dimension
+msgid "Element height, expressed as CSS dimension"
+msgstr ""
+
+#: ErrorBoundary
+# defaultMessage: Error in component
+msgid "Error in component"
+msgstr ""
+
+#: StyleWrapper/schema
+# defaultMessage: First letter is styled as a drop cap
+msgid "First letter is styled as a drop cap"
+msgstr ""
+
 #: Blocks/StretchBlock
 # defaultMessage: Fit
 msgid "Fit"
+msgstr ""
+
+#: StyleWrapper/schema
+# defaultMessage: Font size
+msgid "Font size"
+msgstr ""
+
+#: StyleWrapper/schema
+# defaultMessage: Font weight
+msgid "Font weight"
 msgstr ""
 
 #: Widgets/Align
@@ -34,15 +170,56 @@ msgstr ""
 msgid "Full"
 msgstr ""
 
+#: index
+# defaultMessage: Green box
+msgid "Green box"
+msgstr ""
+
+#: StyleWrapper/schema
+# defaultMessage: Hidden
+msgid "Hidden"
+msgstr ""
+
+#: StyleWrapper/schema
+# defaultMessage: Hide this block
+msgid "Hide this block"
+msgstr ""
+
 #: Widgets/TextAlign
 # defaultMessage: Justify
 msgid "Justify"
 msgstr ""
 
+#: StyleWrapper/schema
+# defaultMessage: Layout
+msgid "Layout"
+msgstr ""
+
+#: StyleWrapper/schema
 #: Widgets/Align
 #: Widgets/TextAlign
 # defaultMessage: Left
 msgid "Left"
+msgstr ""
+
+#: StyleWrapper/schema
+# defaultMessage: Light
+msgid "Light"
+msgstr ""
+
+#: StyleWrapper/schema
+# defaultMessage: Margin
+msgid "Margin"
+msgstr ""
+
+#: StyleWrapper/schema
+# defaultMessage: Maximize block to viewport height
+msgid "Maximize block to viewport height"
+msgstr ""
+
+#: StyleWrapper/schema
+# defaultMessage: Medium
+msgid "Medium"
 msgstr ""
 
 #: Widgets/Align
@@ -50,20 +227,138 @@ msgstr ""
 msgid "Narrow"
 msgstr ""
 
+#: StyleWrapper/schema
 #: Widgets/Align
 # defaultMessage: None
 msgid "None"
 msgstr ""
 
+#: StyleWrapper/schema
+# defaultMessage: Padding
+msgid "Padding"
+msgstr ""
+
+#: Widgets/SimpleColorPicker
+# defaultMessage: Pick color
+msgid "Pick color"
+msgstr ""
+
+#: StyleWrapper/schema
+# defaultMessage: Preset styles
+msgid "Preset styles"
+msgstr ""
+
+#: StyleWrapper/schema
+# defaultMessage: Pushes selected block under floated content
+msgid "Pushes selected block under floated content"
+msgstr ""
+
+#: StyleWrapper/schema
+# defaultMessage: Regular
+msgid "Regular"
+msgstr ""
+
+#: StyleWrapper/schema
+# defaultMessage: Relative to normal size of text in the block
+msgid "Relative to normal size of text in the block"
+msgstr ""
+
+#: StyleWrapper/schema
 #: Widgets/Align
 #: Widgets/TextAlign
 # defaultMessage: Right
 msgid "Right"
 msgstr ""
 
+#: StyleWrapper/schema
+# defaultMessage: Rounded Corner
+msgid "Rounded Corner"
+msgstr ""
+
+#: StyleWrapper/schema
+# defaultMessage: Screen height
+msgid "Screen height"
+msgstr ""
+
+#: StyleWrapper/schema
+# defaultMessage: SemiBold
+msgid "SemiBold"
+msgstr ""
+
+#: StyleWrapper/schema
+# defaultMessage: Shadow color
+msgid "Shadow color"
+msgstr ""
+
+#: StyleWrapper/schema
+# defaultMessage: Shadow depth
+msgid "Shadow depth"
+msgstr ""
+
+#: Widgets/QuadSize
+# defaultMessage: Size
+msgid "Size"
+msgstr ""
+
+#: StyleWrapper/schema
+# defaultMessage: Standard
+msgid "Standard"
+msgstr ""
+
 #: Blocks/StretchBlock
+#: StyleWrapper/schema
 # defaultMessage: Stretch
 msgid "Stretch"
+msgstr ""
+
+#: Blocks/StretchBlock
+# defaultMessage: Stretch block to the edges
+msgid "Stretch block to the edges"
+msgstr ""
+
+#: StyleWrapper/schema
+# defaultMessage: Style
+msgid "Style"
+msgstr ""
+
+#: BlockStyleWrapper/BlockStyleWrapperEdit
+# defaultMessage: Style palette for 
+msgid "Style palette for "
+msgstr ""
+
+#: BlockStyleWrapper/BlockStyleWrapperEdit
+# defaultMessage: Style pallete
+msgid "Style pallete"
+msgstr ""
+
+#: StyleWrapper/schema
+# defaultMessage: Styles
+msgid "Styles"
+msgstr ""
+
+#: StyleWrapper/schema
+# defaultMessage: Text align
+msgid "Text align"
+msgstr ""
+
+#: StyleWrapper/schema
+# defaultMessage: Text color
+msgid "Text color"
+msgstr ""
+
+#: StyleWrapper/schema
+# defaultMessage: The weight (or boldness) of the font
+msgid "The weight (or boldness) of the font"
+msgstr ""
+
+#: StyleWrapper/schema
+# defaultMessage: Theme
+msgid "Theme"
+msgstr ""
+
+#: Widgets/QuadSize
+# defaultMessage: Unit
+msgid "Unit"
 msgstr ""
 
 #: Widgets/Align

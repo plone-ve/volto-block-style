@@ -1,10 +1,18 @@
 import React from 'react';
+import { defineMessages } from 'react-intl';
 import { FormFieldWrapper, Icon } from '@plone/volto/components';
 import { Button } from 'semantic-ui-react';
 import clearSVG from '@plone/volto/icons/clear.svg';
 
 import loadable from '@loadable/component';
 const GithubPicker = loadable(() => import('react-color/lib/Github'));
+
+const messages = defineMessages({
+  pickColor: {
+    id: 'Pick color',
+    defaultMessage: 'Pick color',
+  },
+});
 
 export default (props) => {
   const { id, value, onChange, available_colors } = props;
@@ -22,7 +30,7 @@ export default (props) => {
             style={{ backgroundColor: value }}
             onClick={() => setShowPicker(!showPicker)}
             size="huge"
-            title="Pick color"
+            title={props.intl.formatMessage(messages.pickColor)}
           >
             {''}
           </Button>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { FormattedMessage } from 'react-intl';
 
 export default class ErrorBoundary extends React.Component {
   constructor(props) {
@@ -19,7 +20,14 @@ export default class ErrorBoundary extends React.Component {
   render() {
     if (this.state.hasError) {
       // You can render any custom fallback UI
-      return <strong>Error in component</strong>;
+      return (
+        <strong>
+          <FormattedMessage
+            id="Error in component"
+            defaultMessage="Error in component"
+          />
+        </strong>
+      );
     }
 
     return this.props.children;
