@@ -20,7 +20,7 @@ const messages = defineMessages({
   },
 });
 
-const fields = {
+const fields = ({intl}) => ({
   unitField: {
     title: `${intl.formatMessage(messages.unit)}`,
     columns: 2,
@@ -33,7 +33,7 @@ const fields = {
       ['rem', 'rem'],
     ],
   },
-};
+});
 
 const getMax = (unit) => {
   switch (unit) {
