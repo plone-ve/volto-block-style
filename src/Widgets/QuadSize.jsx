@@ -20,7 +20,7 @@ const messages = defineMessages({
   },
 });
 
-const fields = ({intl}) => ({
+const fields = ({ intl }) => ({
   unitField: {
     title: `${intl.formatMessage(messages.unit)}`,
     columns: 2,
