@@ -74,7 +74,6 @@ const QuadSizeWidget = (props) => {
     ...sliderSettings,
     max: getMax(unit),
   };
-  // console.log('value', value);
 
   return (
     <ErrorBoundary>
